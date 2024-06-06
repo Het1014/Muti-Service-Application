@@ -62,4 +62,4 @@ This program demonstrates the following programming concepts:
 - **Structure:** Structures are used to define custom data types containing multiple fields, enabling the organization and manipulation of related data.
 - **Time Manipulation:** Time manipulation functions are used to retrieve and manipulate system time, allowing for timestamp generation and time-based operations.
 
-##**Created By Het and Dev**
+## **Created By Het and Dev**
