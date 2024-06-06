@@ -12,7 +12,7 @@
 #include <ctime>
 #include<conio.h>
 using namespace std;
-                                             /**Bills*/
+                                                            /*Bills*/
 class Bills{
     long lpg_id,amount;
     public:
@@ -138,7 +138,7 @@ void Bill(){
         default:b1.Default();
     }
 }
-                                             /**Insurance*/
+                                                            /*Insurance*/
 class Insurance{
     string exp_date,input,email,policy,acc_no;
     int pay,pin,cvv;
@@ -241,7 +241,7 @@ void Insure(){
     cin>>ch;
     switch(ch){case 1: i2.Life1();break; case 2:i2.Life2();break; default:b1.Default();}
 }
-                                             /**Movie Ticket Booking*/
+                                                            /*Book a Movie Ticket*/
 class MovieBook{
     float convfees,base,igst,amount;
     int seat,pay,ticket;
@@ -263,6 +263,7 @@ void MovieBook::InSeat(){cout<<endl<<endl<<"\"Invalid Seats Entered\""<<endl<<en
 void MovieBook::FinalDisplay(){
     m.Payment();
     m.MovieDisplay();
+    b1.DateTime();
     cout<<"Ticket(s) - "<<m.seat<<endl;
     cout<<"Amount Paid - "<<m.amount<<endl;
 }
@@ -350,7 +351,7 @@ void MovieBook::Movie(){
     }
 }
 void Movie(){MovieBook b;b.Movie();}
-                                             /**Recharge*/
+                                                            /*Recharge*/
 class Recharge{
     public:
         string phone;
@@ -430,7 +431,7 @@ void Recharge(){
         default:b1.Default();
     }
 }
-                                             /**Bus Ticket Booking*/
+                                                            /*Bus ticket booking*/
 class Bus{
     double fair,reserv=10,tax,amount;
     int seats;
@@ -439,7 +440,12 @@ class Bus{
         void Transportaion();
         void Book();
 } t1;
-void Bus::displayDetails(){cout<<endl<<"Source - Rajkot\nDestination - Ahmedabad"<<endl<<endl;}
+void Bus::displayDetails(){
+    cout<<endl<<"Source - Rajkot\nDestination - Ahmedabad"<<endl;
+    b1.TransactionID(16);
+    cout<<"Passenger(s) - "<<seats<<endl;
+    b1.DateTime();
+}
 void Bus::Book(){cout<<endl<<endl<<"\"BOOKING CONFIRMED\""<<endl;t1.displayDetails();}
 void Bus::Transportaion(){
     t1.displayDetails();
@@ -494,7 +500,6 @@ void choice(){
         default:b1.Default();
     }
 }
-                                             /**Menu for providing choices*/
 void menu(){
     while(true){
         cout<<endl<<"                                                   HEEV Multi-Services"<<endl;
