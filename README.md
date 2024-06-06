@@ -27,9 +27,9 @@ To run this program on your local machine, follow these steps:
    git clone https://github.com/Het1014/Muti-Service-Application.git
    ```
 
-2. Compile the C++ program using a C++ compiler such as g++:
+2. Compile the C++ program using a C++ compiler such as g++.
 
-3. Run the compiled code:
+3. Run the compiled code.
 
 ## Usage
 
