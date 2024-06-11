@@ -24,7 +24,7 @@ To run this program on your local machine, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/Het1014/Muti-Service-Application.git
+   [git clone https://github.com/Het1014/Muti-Service-Application.git](https://github.com/Het1014/Muti-Service-Application.git)
    ```
 
 2. Compile the C++ program using a C++ compiler such as g++.
