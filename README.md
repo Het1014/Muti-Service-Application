@@ -11,7 +11,7 @@ Welcome to HEEV Multi-Services! This repository contains a C++ program that offe
 
 ## Features
 
-- **Bill Payments:** Pay your gas and electricity bills conveniently through the command-line interface.
+- **Bill Payments:** Pay your gas and electricity bills conveniently through CLI.
 - **Movie Ticket Booking:** Book movie tickets for the latest shows with seat selection and payment options.
 - **Mobile and DTH Recharge:** Recharge your mobile and DTH subscriptions with various plans and payment methods.
 - **Bus Booking:** Reserve seats for bus travel between Rajkot and Ahmedabad with fare calculation and payment.
@@ -48,7 +48,7 @@ Choose an option by entering the corresponding number. Follow the prompts to com
 
 This program demonstrates the following programming concepts:
 
-- **Functions:** Functions are used to encapsulate reusable blocks of code, enhancing modularity and readability.
+- **Functions:** Functions are used to encapsulate reusable blocks of code, enhancing modularity and readability. There is heavy use use of functions in this project. Complex function calls are implemented to make it as effective as possible reducing the redundancy.
 - **Classes:** Classes are used to encapsulate related data and functions, enabling object-oriented programming principles.
 - **Conditionals:** Conditionals such as `if`, `else if`, and `switch` statements are used to execute different blocks of code based on specified conditions.
 - **Loops:** Loops such as `for` and `while` loops are used to execute blocks of code repeatedly until certain conditions are met.
@@ -62,4 +62,4 @@ This program demonstrates the following programming concepts:
 - **Structure:** Structures are used to define custom data types containing multiple fields, enabling the organization and manipulation of related data.
 - **Time Manipulation:** Time manipulation functions are used to retrieve and manipulate system time, allowing for timestamp generation and time-based operations.
 
-## **Created By Het and Dev**
+### **Created By Het and Dev**
