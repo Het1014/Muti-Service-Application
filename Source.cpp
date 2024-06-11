@@ -88,8 +88,8 @@ void Bills::BookGas(){
     b1.Helper();
     switch(select){
         case 1:
-            cout<<endl<<"  Satyajit Gas Agency"<<endl;
-            cout<<"  -------------------"<<endl;
+            cout<<endl<<"     Satyajit Gas Agency"<<endl;
+            cout<<"     -------------------"<<endl;
             cout<<endl<<"   \"Order Placed Successfully\""<<endl<<endl;
             cout<<"Distributor Name - Satyajit Gas Agency"<<endl;
             cout<<"Distributor ID - 118144"<<endl;
@@ -112,7 +112,6 @@ void Bills::Electricity(){
     switch(select){
         case 1:
             b1.PaySuccess();
-            cout<<"Bill Details"<<endl<<endl;
             cout<<"Electricity Board - Paschim Gujarat Vij Company Limited (PGVCL)"<<endl;
             b1.Summary();
             cout<<"Amount - "<<b1.amount<<endl;
@@ -241,7 +240,7 @@ void Insure(){
     cin>>ch;
     switch(ch){case 1: i2.Life1();break; case 2:i2.Life2();break; default:b1.Default();}
 }
-                                                            /*Book a Movie Ticket*/
+                                                            /*Book Movie Ticket(s)*/
 class MovieBook{
     float convfees,base,igst,amount;
     int seat,pay,ticket;
@@ -334,6 +333,7 @@ void MovieBook::Movie(){
                 }
                 break;
             }else{m.InSeat();}
+            break;
         case 2:
             seats = m.Seat();
             if(seats>0 && seats<=10){
@@ -347,6 +347,7 @@ void MovieBook::Movie(){
                 }
                 break;
             }else{m.InSeat();}
+            break;
         default:cout<<endl<<"\"NO SHOWS FOUND\""<<endl;
     }
 }
